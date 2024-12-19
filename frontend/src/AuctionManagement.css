@@ -1,0 +1,53 @@
+/* AuctionManagement.css */
+
+.container {
+    padding: 2rem;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+input[type="text"], textarea {
+    border-radius: 0.375rem;
+    border-color: #ced4da;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #495057;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.table {
+    margin-top: 2rem;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.border {
+    border: 1px solid #dee2e6;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}

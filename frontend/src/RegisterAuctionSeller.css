@@ -1,0 +1,54 @@
+.auction-container {
+    /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 8px;
+    width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .register-header {
+    text-align: center;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .auction-form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .personal-details, .auction-details {
+    margin-bottom: 20px;
+  }
+  
+  h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    border-color: red;
+  }
+  
+  .btn-success {
+    background-color: green;
+    border-color: green;
+  }
+  

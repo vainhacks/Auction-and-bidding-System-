@@ -1,0 +1,89 @@
+.containerxv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 260px;
+    position: relative;
+}
+
+.banner {
+    background-color: #f0f0f0b3;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Maintain full width */
+    max-width: 1200px; /* Increased max width */
+    position: relative;
+}
+
+.ad-item {
+    display: flex;
+    flex-direction: column; /* Stack image and details vertically */
+    align-items: center;
+    width: 100%; /* Maintain full width */
+    max-width: 1200px; /* Increased max width for ad item */
+}
+
+
+.image-container {
+    width: 100%; /* Full width */
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ad-details {
+    margin-top: 10px; /* Add space between image and details */
+    text-align: center; /* Center text */
+}
+
+.ad-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.ad-title {
+    font-family: 'Gabriela Stencil', cursive;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.ad-description,
+.ad-date {
+    font-family: 'Alex Brush', cursive;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.navigation-arrows {
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    max-width: 1200px; /* Increased max width */
+    padding: 0 20px;
+}
+
+.arrow {
+    font-size: 80px;  /* Increased size for better visibility */
+    cursor: pointer;
+    color: #c7c9cd;
+    transition: color 0.3s, transform 0.3s;  /* Added transform for hover effect */
+    flex: 1;
+    text-align: center;
+}
+
+.arrow:hover {
+    color: #727070;
+    transform: scale(1.2);  /* Slightly enlarge on hover */
+}
